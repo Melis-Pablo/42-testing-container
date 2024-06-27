@@ -5,5 +5,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - "${MOUNT_DIR}:/home/developer"
+      - "~/.ssh:/root/.ssh"
     stdin_open: true
     tty: true

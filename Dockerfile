@@ -81,8 +81,5 @@ RUN sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 # Create Folders
 RUN mkdir -p /home/developer /root/.ssh
 
-# SSH Keys
-COPY ./.ssh /root/.ssh
-
-# set working directory to /home/vscode/src
+# set working directory to /home/developer
 WORKDIR  /home/developer

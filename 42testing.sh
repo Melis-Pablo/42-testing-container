@@ -14,7 +14,7 @@ cd $CONTAINER_FILES
 #Start docker compose in detatched mode
 docker-compose up -d --build
 
-# Get the container ID of the running service (devcontainer in this case)
+# Get the container ID of the running service (42-testing in this case)
 # Use docker-compose ps -q devcontainer to get the container ID
 SERVICE_NAME=42-testing
 CONTAINER_ID=$(docker-compose ps -q $SERVICE_NAME)
