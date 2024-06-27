@@ -1,0 +1,9 @@
+services:
+  42-testing:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - "${MOUNT_DIR}:/home/developer"
+    stdin_open: true
+    tty: true
