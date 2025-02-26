@@ -59,6 +59,7 @@ The `42testing.sh` script performs the following actions:
 ## Additional Notes
 - Ensure that Docker and Docker Compose are properly installed and running on your system.
 - Customize the Docker Compose and Dockerfile configurations as needed for your specific use case.
+- Dockerfile can be optimized to become lighter and more efficient.
 
 ## Contact
 For any issues or questions, please open an issue on the project repository or contact the maintainer.
