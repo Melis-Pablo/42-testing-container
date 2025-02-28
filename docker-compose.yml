@@ -1,6 +1,6 @@
 services:
   42-testing:
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile
     volumes:
