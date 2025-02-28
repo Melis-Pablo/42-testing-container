@@ -18,7 +18,7 @@ A standardized Docker environment that replicates the 42 School computing enviro
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/42-Testing-Container.git
+   git clone https://github.com/Melis-Pablo/42-Testing-Container.git
    cd 42-Testing-Container
    ```
 
